@@ -1,5 +1,6 @@
 package android.example.doctormobile;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -22,7 +23,10 @@ public class MainActivity extends AppCompatActivity {
         signInBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                if(email.getText().toString().equals("rappi@gmail.com") && password.getText().toString().equals("123456789")){
+                    Intent intent = new Intent(MainActivity.this, UserPannel.class);
+                    startActivity(intent);
+                }
             }
         });
     }

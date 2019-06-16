@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardview_id"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_width="150dp"
+    android:layout_weight="1"
+    android:layout_height="70dp"
+    style="@style/CardView.Light"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="15dp"
+    cardview:cardCornerRadius="4dp"
+    android:focusable="true">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:padding="5dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/loginimage"/>
+        <TextView
+            android:id="@+id/item_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Search Doner"
+            android:textColor="#000000"
+            android:tag="something"
+            android:textSize="17sp"/>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
