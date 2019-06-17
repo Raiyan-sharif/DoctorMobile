@@ -20,6 +20,7 @@
             android:text="BMI Calculator"
             android:textAppearance="@style/TextAppearance.AppCompat"/>
         <Button
+            android:id="@+id/adult_fever_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"

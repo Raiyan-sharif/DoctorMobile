@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
                 if(email.getText().toString().equals("rappi@gmail.com") && password.getText().toString().equals("123456789")){
                     Intent intent = new Intent(MainActivity.this, UserPannel.class);
                     startActivity(intent);
+                    finish();
                 }
             }
         });
