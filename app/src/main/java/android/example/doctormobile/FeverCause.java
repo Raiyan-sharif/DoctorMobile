@@ -1,5 +1,6 @@
 package android.example.doctormobile;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -23,7 +24,9 @@ public class FeverCause extends AppCompatActivity {
 //                Toast.makeText(getApplicationContext(),"Em"+c1.isChecked(),Toast.LENGTH_LONG).show();
 
                 if(c1.isChecked()){
-                    Toast.makeText(getApplicationContext(),"ok"+c1.isChecked(),Toast.LENGTH_LONG).show();
+//                    Toast.makeText(getApplicationContext(),"ok"+c1.isChecked(),Toast.LENGTH_LONG).show();
+                    Intent intent = new Intent(FeverCause.this, Results.class);
+                    startActivity(intent);
                 }
 
             }
