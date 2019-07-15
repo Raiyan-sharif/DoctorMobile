@@ -34,4 +34,56 @@
         android:text="Accompanied by abdominal pain or cramping\nAccompanied by bloody or cloudy urine\nAccompanied by frequent or painful urination"
         android:textColor="#556"/>
 
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Viral gastroenteritis (stomach flu)"
+        android:textColor="#0000ff"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accompanied by abdominal pain or cramping\nAccompanied by diarrhea\nAccompanied by loss of appetite\nAccompanied by muscle aches\nAccompanied by nausea or vomiting"
+        android:textColor="#556"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="#559955"
+        android:textSize="20sp"
+        android:text="Remedy"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Urinary tract infection (UTI)"
+        android:textColor="#0000ff"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gentamicin medicine\nCiprofloxacin medicine\nLevofloxacin medicine"
+        android:textColor="#556"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Viral gastroenteritis (stomach flu)"
+        android:textColor="#0000ff"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loperamide tablet\nCiprofloxacin\nLactobacillus acidophilus"
+        android:textColor="#556"/>
+
+
 </LinearLayout>
