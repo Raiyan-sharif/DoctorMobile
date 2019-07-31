@@ -23,11 +23,11 @@ public class FeverCause extends AppCompatActivity {
 //                String a = c1.getText().toString();
 //                Toast.makeText(getApplicationContext(),"Em"+c1.isChecked(),Toast.LENGTH_LONG).show();
 
-                if(c1.isChecked()){
+//                if(c1.isChecked()){
 //                    Toast.makeText(getApplicationContext(),"ok"+c1.isChecked(),Toast.LENGTH_LONG).show();
                     Intent intent = new Intent(FeverCause.this, Results.class);
                     startActivity(intent);
-                }
+//                }
 
             }
         });
