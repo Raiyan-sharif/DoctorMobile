@@ -23,11 +23,11 @@ public class MainActivity extends AppCompatActivity {
         signInBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(email.getText().toString().equals("rappi@gmail.com") && password.getText().toString().equals("123456789")){
+//                if(email.getText().toString().equals("rappi@gmail.com") && password.getText().toString().equals("123456789")){
                     Intent intent = new Intent(MainActivity.this, UserPannel.class);
                     startActivity(intent);
                     finish();
-                }
+//                }
             }
         });
     }

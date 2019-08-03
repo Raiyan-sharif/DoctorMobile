@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Results"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fever"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="These diseases and conditions match at least one of the factors you selected. Those with the most matches are listed first."
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rotavirus"
+        android:textColor="#0000ff"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accompanied by decreased energy or fatigue\nAccompanied by diarrhea\nAccompanied by nausea or vomiting"
+        android:textColor="#556"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="#559955"
+        android:textSize="20sp"
+        android:text="Remedy"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rotavirus"
+        android:textColor="#0000ff"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="There's no specific treatment for a rotavirus infection. Antibiotics and antivirals won't help a rotavirus infection. Usually, the infection resolves within three to seven days.
+
+Preventing dehydration is the biggest concern. To prevent dehydration while the virus runs its course, drink plenty of fluids. If your child has severe diarrhea, ask your doctor about offering an oral rehydration fluid such as Pedialyte or Enfalyte — especially if the diarrhea lasts longer than a few days.
+
+For children, a rehydration fluid can replace lost minerals more effectively than can water or other liquids. Severe dehydration may require intravenous fluids in the hospital.
+
+Anti-diarrheal medications aren't recommended for a rotavirus infection."
+        android:textColor="#556"/>
+
+
+</LinearLayout>
