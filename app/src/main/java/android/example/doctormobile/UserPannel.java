@@ -22,5 +22,16 @@ public class UserPannel extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button bmical2 = (Button)findViewById(R.id.bmi_cal_id);
+
+        bmical2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(UserPannel.this, BMI.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
