@@ -37,31 +37,33 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="150dp"
-        android:text="Enter your height and weight, to\n check your BMI"
+        android:text="Enter your height in inc and weight in kg, to\n check your BMI"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Check_BMI_title" />
 
-    <Spinner
+    <TextView
         android:id="@+id/Height_spinner"
         android:layout_width="106dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:layout_marginTop="35dp"
         android:visibility="visible"
+        android:text="Inc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/edt_height"
         app:layout_constraintTop_toBottomOf="@id/BMI_Request_txtfld" />
 
-    <Spinner
+    <TextView
         android:id="@+id/weight_spinner"
         android:layout_width="106dp"
         android:layout_height="18dp"
         android:layout_marginEnd="32dp"
         android:layout_marginTop="48dp"
         android:visibility="visible"
+        android:text="Kg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/edt_weight"
